@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class delivery {
+public class Delivery {
     public static void main(String[] args) {
         String personAddress, personName;
         double weight;
