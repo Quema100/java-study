@@ -16,6 +16,6 @@ public class delivery {
 
         System.out.println("받는 사람:" + personName + "\n주소:" + personAddress +"\n배송비:" + weight*5 + "(원)");
 
-
+        scanner.close();
     }
 }

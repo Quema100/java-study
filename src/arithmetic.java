@@ -33,5 +33,7 @@ public class arithmetic {
             default:
                 System.out.println("연산이 불가합니다 다시 입력해주세요.");
         }
+
+        scanner.close();
     }
 }
