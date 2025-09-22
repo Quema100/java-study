@@ -34,28 +34,12 @@ public class Arithmetic {
         }
 
         switch (res) {
-            case "더하기": case "+":
-                System.out.println(num1 + "+" + num2 + "=" + (num1 + num2));
-                break;
-            case "빼기":
-            case "-":
-                System.out.println(num1 + "-" + num2 + "=" + (num1 - num2));
-                break;
-            case "나누기":
-            case "/":
-                System.out.println(num1 + "/" + num2 + "=" + (num1 / num2));
-                break;
-            case "곱하기":
-            case "x":
-                System.out.println(num1 + "x" + num2 + "=" + (num1 * num2));
-                break;
-            case "나머지":
-            case "%":
-                System.out.println(num1+ "%" + num2 + "=" + (num1 % num2));
-                break;
-            default:
-                System.out.println("연산이 불가합니다 다시 입력해주세요.");
-                break;
+            case "더하기", "+" -> System.out.println(num1 + "+" + num2 + "=" + (num1 + num2));
+            case "빼기", "-" -> System.out.println(num1 + "-" + num2 + "=" + (num1 - num2));
+            case "나누기", "/"-> System.out.println(num1 + "/" + num2 + "=" + (num1 / num2));
+            case "곱하기", "x"-> System.out.println(num1 + "x" + num2 + "=" + (num1 * num2));
+            case "나머지", "%"-> System.out.println(num1+ "%" + num2 + "=" + (num1 % num2));
+            default-> System.out.println("연산이 불가합니다 다시 입력해주세요.");
         }
 
         scanner.close();
